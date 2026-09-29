@@ -1,0 +1,18 @@
+{
+  "slug": "ppt-generator-skill",
+  "name": "ppt-generator-skill",
+  "version": "1.0.2",
+  "installedAt": 1790662733361,
+  "source": "skillhub",
+  "namespace": "user_3b34947d",
+  "canonicalName": "@user_3b34947d/ppt-generator-skill",
+  "iconSource": "https://cloudcache.tencent-cloud.com/qcloud/ui/static/other_external_resource/62f73a9b-1aca-4f8e-921d-6102e258c768.png",
+  "labels": {
+    "requires_api_key": "false"
+  },
+  "description_zh": "智能 PPT 生成助手。根据用户描述的主题、行业、风格，自动生成漂亮的 PPT 文件。支持所有行业（商务、教育、科技、医疗、金融、创意等），支持中英文双语，支持用户提供的模板或 AI 自动配色。触发词：做PPT、生成PPT、制作幻灯片、make ppt、create presentation、帮我做个PPT。",
+  "installs": 142766,
+  "installedContentHash": "sha256:e11730d80036bcad245ec67d6a57f0f95bccff69b6f8e43b28c9948e02986ca4",
+  "iconLocalPath": "C:\\Users\\EDY\\.workbuddy\\skills\\ppt-generator-skill__skillhub\\_icon.png",
+  "iconDownloadedFrom": "https://cloudcache.tencent-cloud.com/qcloud/ui/static/other_external_resource/62f73a9b-1aca-4f8e-921d-6102e258c768.png"
+}
