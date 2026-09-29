@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+  "required_binaries": [
+    {
+      "name": "python",
+      "min_version": "3.8.0",
+      "reason": "Runs ocr.py for cloud OCR API calls (Tencent Cloud / Alibaba Cloud)"
+    }
+  ],
+  "required_packages": [
+    {
+      "name": "tencentcloud-sdk-python",
+      "install": "pip install tencentcloud-sdk-python",
+      "required": false,
+      "reason": "Tencent Cloud OCR backend (default provider)"
+    },
+    {
+      "name": "alibabacloud_ocr_api20210707",
+      "install": "pip install alibabacloud_ocr_api20210707",
+      "required": false,
+      "reason": "Alibaba Cloud OCR backend (alternative provider)"
+    }
+  ],
+  "required_env": [
+    {
+      "name": "TENCENTCLOUD_SECRET_ID",
+      "required": false,
+      "reason": "Tencent Cloud API credential (with TENCENTCLOUD_SECRET_KEY); get from https://console.cloud.tencent.com/cam/capi"
+    },
+    {
+      "name": "TENCENTCLOUD_SECRET_KEY",
+      "required": false,
+      "reason": "Tencent Cloud API credential"
+    },
+    {
+      "name": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+      "required": false,
+      "reason": "Alibaba Cloud API credential (with ALIBABA_CLOUD_ACCESS_KEY_SECRET); get from https://ram.console.aliyun.com/manage/ak"
+    },
+    {
+      "name": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+      "required": false,
+      "reason": "Alibaba Cloud API credential"
+    }
+  ]
+}
